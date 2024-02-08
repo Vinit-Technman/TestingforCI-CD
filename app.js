@@ -3,7 +3,7 @@ const app=express();
 
 
 app.get("/",(req,res)=>{
-    res.send("Hello World! this is version 1.1");
+    res.send("Hello World! this is version 1.2");
 })
 
 app.listen(9999,()=>{
